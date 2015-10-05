@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+  font-size: 1.4em;
+  line-height: 1.4;
+  -webkit-text-size-adjust: 100%;
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img,
+a {
+  border: none;
+}
+ul {
+  list-style: none;
+}
+.inner {
+  margin: 0 auto;
+}
+.containner {
+  margin: auto;
+}
+.cnt-center {
+  text-align: center;
+}
+.cnt-left {
+  text-align: left;
+}
+.cnt-right {
+  text-align: right;
+}
+.item-left {
+  float: left;
+}
+.item-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.inline {
+  display: inline-block;
+}
+.navi {
+  margin: 2px auto 8px;
+  display: inline-block;
+}
+.navi li {
+  margin-right: 21px;
+}
