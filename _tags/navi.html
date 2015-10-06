@@ -1,11 +1,16 @@
 <navi>
   <div class="inner cnt-center">
     <ul class="navi">
-      <li class="item-left"><a href="../link1/">Mận</a></li>
-      <li class="item-left"><a href="../link2/">Thiều</a></li>
-      <li class="item-left"><a href="../link3/">Tường</a></li>
+      <li each={ items } class="item-left"><a href={link}>{title}</a></li>
       <social></social>
       <div class="clear"></div>
     </ul>
+    <script>
+      this.items = [
+        { title: "Mận", link: "../link1/"},
+        { title: "Thiều", link: "../link2/"},
+        { title: "Tường", link: "../link3/"}
+      ]
+    </script>
   </div>
 </navi>
