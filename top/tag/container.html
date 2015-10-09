@@ -1,5 +1,14 @@
 <container>
   <div class="intro border cnt-center">
-    <img src="imgs/intro.jpg" alt="dear brother">
+    <img src={top.img} alt={top.alt}>
   </div>
+  var self = this;
+  self.top = {};
+  self.on("mount", function(){
+    RiotControl.trigger("init");
+  })
+  RiotControl.on("changed", function(data){
+    self.top = data.top;
+    self.update();
+  })
 </container>
